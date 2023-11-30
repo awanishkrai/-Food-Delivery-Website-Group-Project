@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Fleet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const aboutLink = document.getElementById('aboutLink');
+            const aboutSection = document.getElementById('about');
+    
+            aboutLink.addEventListener('click', function (event) {
+                event.preventDefault();
+                aboutSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="img/nlogo.png" alt="img/logo"></div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#about" id="aboutLink">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="html1.html">REGISTER</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+        </label>
+    </header>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <div class="secondHalf">
+                    <img src="img/bg-hero.jpg" alt="Background Image">
+                </div>
+                <div class="content">
+                    <h2>Explore Exquisite <br>Cuisines</h2>
+<p>Experience a world of diverse and <br>
+authentic flavors that redefine gastronomy.</p>
+                <div class="buttons">
+                <a href="index1.html"><button>Order Now</button></a>
+                </div>
+                </div>
+                
+            </div>
+            <img src="img/hero.png" alt="Round Image" class="spinner">
+        </div>
+    </section>
+    <section class="background secondSection">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="img/dish.png" alt="dish image">
+                <h4>Quality Food</h4>
+                <br>
+                <p>Satisfy your cravings with our convenient and delicious food options.</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/carts.png" alt="cart image">
+                <h4>Online Order</h4>
+                <br>
+                <p>Order online for pickup or delivery</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/24-hours.png" alt="24 hours">
+                <h4>24/7 Service</h4>
+                <br>
+                <p>Enjoy our 24/7 service</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="aboutSection" id="about">
+        <div class="grid-container2">
+            <div class="grid-item2">
+                <img src="img/about-1.jpg" alt="">
+            </div>
+            <div class="grid-item2">
+                <img src="img/about-2.jpg" alt="about image">
+            </div>
+            <div class="grid-item2">
+                <img src="img/about-3.jpg" alt="about image">
+            </div>
+            <div class="grid-item2">
+                <img src="img/about-4.jpg" alt="about image">
+            </div>
+        </div>
+        <div class="about-content">
+            <h5 class="about-title">About us</h5>
+            <h1 class="about-heading">Welcome to Food Fleet</h1>
+            <p class="about-para">Food Fleet is your one-stop shop for delicious and convenient food delivery. We offer a wide variety of cuisines from around the world, all delivered fresh to your door.<br><br>At Food Fleet, we are passionate about providing our customers with a seamless and enjoyable food delivery experience. We use only the freshest ingredients and prepare all our dishes with care, so you can be sure you're getting a meal that's both delicious and nutritious.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Food Fleet. All rights reserved.</p>
+      </footer>
+</body>
+</html>
